@@ -90,6 +90,7 @@ textarea {
 header {
   display: flex;
   justify-content: center;
+  padding: 15px 0;
 }
 
 header .content-wrapper {
@@ -97,12 +98,30 @@ header .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0;
+}
+
+header nav{
+  width: 60%;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
-  
+  width: 100%;
+  /*padding: 20px 0; */
+  margin: 0;
+}
+
+.header-divider {
+  width: 100%;
+  height: 1px;
+  margin: 10px 0 20px;
+}
+
+.content-wrapper {
+  width: 90%;
+  margin: 50px 0;
 }
 
 footer {
@@ -110,21 +129,40 @@ footer {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  /*padding-top: 50px; */
 }
 
+footer .content-wrapper {
+  width: 55%;
+/*  margin: 50px 0; */
+}
 
+footer h4 {
+  padding: 20px 0;
+}
 footer .social-icons {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
+footer p {
+  margin: 0;
+}
+
+footer address p {
+  padding-bottom: 50px;
+}
 footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 50px;
 }
 
+.copyright p {
+  margin: 20px 0;
+}
 /* Mobile Styles - Homepage*/
 
 /* Home Main Section */
@@ -145,14 +183,50 @@ main .home  {
 aside {
   display: flex;
   justify-content: center;
+ /* padding: 50px 0; */
 }
+
+.form-description h3 {
+  padding: 20px 0;
+}
+
+.form-description p {
+  padding-bottom: 30px;
+}
+
+.form h3 {
+  padding: 20px 0;
+}
+
+/* .form input email- address {
+padding : 1em;
+}
+*/
+
+/* .form input downlaod-itinerary {
+padding: 20px 0;
+}
+
 
 /* Features */
 .features {
   display: flex;
   justify-content: center;
+/*  padding: 50px 0; */
 }
 
+.features h2 {
+  margin: 0;
+  margin-bottom: 60px;
+}
+
+.features p {
+  margin: 0;
+}
+
+.fontawesome-icon {
+  margin: 30px 0 40px;
+}
 .features .features-items {
   display: flex;
   justify-content: center;
@@ -160,12 +234,28 @@ aside {
   flex-flow: row wrap;
 }
 
+.features-item-description {
+  padding-bottom: 30px;
+}
+
+.features-items article {
+  width: 60%;
+}
 
 /* Reviews */
 .reviews {
   display: flex;
   justify-content: center;
+ /* padding: 50px 0; */
 
+}
+
+.reviews h2 {
+  padding-bottom: 40px;
+}
+.reviews h3 {
+  width: 50%;
+  padding: 20px 0;
 }
 
 /* About Page */
@@ -179,7 +269,9 @@ aside {
   justify-content: center;
 }
 
-
+.contact-content p {
+  margin: 0;
+}
 
 
 /* FAQ Main Section */
@@ -194,15 +286,16 @@ aside {
   justify-content: center;
   align-items: flex-start;
   flex-flow: row wrap;
+  margin: 50px 0 0 0;
 }
 
-/*.faq .faq-content {
-  display: flex;
-  justify-content: center;
-  flex-flow: row wrap;
+.faq h2 {
+  margin-bottom: 40px;
 }
-  */
-  
+
+.faq-content {
+  margin-bottom: 50px;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
