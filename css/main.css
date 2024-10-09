@@ -105,6 +105,7 @@ nav {
 ul, ol {
  font-size: 1.125em;
  font-weight: bold;
+ list-style-type: none;
 }
 
 a  {
@@ -135,11 +136,11 @@ p {
 }
 
 img {
-
+ width: 100%;
 }
 
 figure {
-
+ margin: 0;
 }
 
 address {
@@ -159,6 +160,10 @@ header {
   background-color: #202322;
 }
 
+header figure {
+  width: 60%;
+}
+
 header .content-wrapper {
   display: flex;
   justify-content: center;
@@ -167,6 +172,10 @@ header .content-wrapper {
   margin: 0;
 }
 
+/* a .logo {
+  background: url('../img/unpluggedlogo.png') center no-repeat;
+  background-size: cover;
+} */
 header nav{
   width: 60%;
 }
@@ -175,7 +184,6 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
-  /*padding: 20px 0; */
   margin: 0;
 }
 
@@ -244,6 +252,8 @@ main .home  {
 .hero-area {
   display: flex;
   justify-content: center;
+  background: url('../img/unplugged-retreat.jpg') center no-repeat;
+  background-size: cover;
 }
 
 h1 {
@@ -303,7 +313,8 @@ input [type=button] {
 .features {
   display: flex;
   justify-content: center;
-/*  padding: 50px 0; */
+  background: url('../img/unplugged-retreat-features.jpg') center no-repeat;
+  background-size: cover;
 }
 
 .features h2 {
@@ -491,7 +502,7 @@ input [type=button] {
 
   h2 {
     font-size: 2.25em;
-    line-height: 48px;
+    line-height: 1.33em;
   }
 
   h3 {
@@ -516,6 +527,10 @@ input [type=button] {
     width: 100%;
     justify-content: space-between;
     
+  }
+
+  header figure {
+    width: 30%;
   }
 
   header nav {
@@ -570,10 +585,17 @@ h1 {
   justify-content: space-between;
 }
 
-.reviews article div {
+.reviews h2 {
+  width: 85%;
+}
+.reviews article div, reviews article div {
   width: 49%;
 }
 
+.reviews h3 {
+  width: 75%;
+  margin: 0;
+}
 /* Footer */
 footer .content-wrapper {
   width: 65%;
@@ -583,6 +605,7 @@ footer .content-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: row;
 }
 footer .contact {
   margin-bottom: 0;
@@ -640,6 +663,9 @@ footer .copyright {
   max-width: 960px;
  }
 
+ header figure {
+  width: 30%;
+}
  h2 {
   font-sizez: 2.25em;
  }
