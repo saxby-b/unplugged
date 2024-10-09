@@ -588,7 +588,7 @@ h1 {
 .reviews h2 {
   width: 85%;
 }
-.reviews article div, reviews article div {
+.reviews article figure, .reviews article div {
   width: 49%;
 }
 
@@ -667,7 +667,7 @@ footer .copyright {
   width: 30%;
 }
  h2 {
-  font-sizez: 2.25em;
+  font-size: 2.25em;
  }
 
  .faq h2, .mission h2 {
