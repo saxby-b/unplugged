@@ -315,16 +315,17 @@ input [type=button] {
 }
 
 .features h2 {
-  margin: 0;
   margin-bottom: 60px;
 }
 
 .features p {
+  text-align: center;
   margin: 0;
 }
 
-.fontawesome-icon {
-  margin: 30px 0 40px;
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
 }
 .features .features-items {
   display: flex;
@@ -338,7 +339,8 @@ input [type=button] {
 }
 
 .features-items article {
-  width: 60%;
+  width: 63%;
+  margin: 30px 0;
 }
 
 /* Reviews */
@@ -580,15 +582,20 @@ h1 {
     margin: 0;
   }
 
+  /*Features */
+  .features h2 {
+    margin-bottom: 20px;
+  }
+
   .features article {
     display: flex;
     align-items: center;
-    flex-flow: cloumn wrap;
+    flex-flow: column wrap;
     flex-basis: 50%;
   }
 
   .features .features-item-description {
-    width: 50%;
+    width: 62%;
   }
 
 /* Reviews */
