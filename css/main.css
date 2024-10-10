@@ -636,6 +636,10 @@ footer .copyright {
   padding-top: 20px;
 }
 
+.map figure {
+  padding-bottom: 75%;
+}
+
 .mission-content p {
   width: 45%;
 }
