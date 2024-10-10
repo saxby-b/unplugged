@@ -215,7 +215,7 @@ footer .social-icons {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: #527158;
+  
 }
 
 footer p {
@@ -225,13 +225,20 @@ footer p {
 footer address p {
   padding-bottom: 50px;
 }
+
 footer .social-icons p {
+  background: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 50px;
+  justify-content: space-around;
+  align-items: center; 
 }
 
+footer .social-icons p i {
+  font-size: 1.3125em;
+}
 .copyright p {
   margin: 20px 0;
 }
@@ -630,7 +637,10 @@ footer .content-wrapper {
 footer .contact {
   margin-bottom: 0;
 }
-
+footer .social-icons {
+  width: 12.5em;
+  justify-content: space-between;
+}
 footer .copyright {
   width: 100%;
 }
