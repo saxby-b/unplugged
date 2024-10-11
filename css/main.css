@@ -116,7 +116,8 @@ a  {
 h2 {
  font-family: 'Poppins', sans-serif;
  font-size: 1.875em;
- line-height: 48px;
+ line-height: 30px;
+ font-weight: 500;
 }
 
 .reviews h2, .faq h2 {
@@ -132,7 +133,7 @@ h3, h4 {
 
 p {
   font-size: 0.875em;
-  line-height: 24px;
+  line-height: 18px;
 }
 
 img {
@@ -172,11 +173,6 @@ header .content-wrapper {
   flex-flow: row wrap;
   margin: 0;
 }
-
-/* a .logo {
-  background: url('../img/unpluggedlogo.png') center no-repeat;
-  background-size: cover;
-} */
 
 header nav {
   width: 60%;
@@ -298,6 +294,8 @@ input[type=text] {
   color: #2a423a;
   font-style: italic;
   padding: 1em;
+  font-size: 1.125em;
+  font-weight: 500;
 }
 
 input[type=button] {
@@ -524,9 +522,14 @@ input[type=button] {
     margin: 100px 0;   
   }
 
+  h1 {
+    font-size: 3em;
+    line-height: 48px;
+  }
+
   h2 {
     font-size: 2.25em;
-    line-height: 1.33em;
+    line-height: 48px;
   }
 
   h3 {
@@ -571,10 +574,6 @@ input[type=button] {
 
 /*Main Section */
 /* Hero Area */
-h1 {
-  font-size: 3em;
-  line-height: 48px;
-}
 /* Aside */
   aside .content-wrapper {
     display: flex;
