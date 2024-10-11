@@ -619,6 +619,7 @@ h1 {
 .reviews article {
   display: flex;
   justify-content: space-between;
+  align-items: space-between;
 }
 
 .reviews h2 {
@@ -647,13 +648,24 @@ footer .contact {
   margin-bottom: 0;
 }
 
-.social h4 {
-  margin-top: 0;
-  padding-top: 0;
+footer h4  {
+  font-size: 1.5em;
+  margin-bottom: 40px;
 }
+
+/*.social h4 {
+  padding-bottom: 20px;
+  margin-bottom: 39.9px;
+  padding-top: 0;
+  margin-top: 0;
+} */
 footer .social-icons {
   width: 12.5em;
   justify-content: space-between;
+}
+
+footer address p {
+  padding-bottom: 0;
 }
 footer .copyright {
   width: 100%;
@@ -731,6 +743,13 @@ footer .copyright {
   font-size: 1.125em;
   line-height: 24px;
  }
+ 
+ /*footer h4 {
+  margin-top: 60px;
+ } 
+ .contact h4 {
+  margin-top: 0;
+ } */
  /* Header */
  header {
  padding: 15px 0;
