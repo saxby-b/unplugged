@@ -255,13 +255,15 @@ main .home  {
   justify-content: center;
   background: url('../img/unplugged-retreat.jpg') center no-repeat;
   background-size: cover;
+  min-height: 500px;
 }
 
 h1 {
   font-size: 2.25em;
   line-height: 43px;
   font-weight: 500;
-  padding-bottom: 220px;
+ /* padding-bottom: 220px; */
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
 }
 
 
@@ -417,6 +419,7 @@ input[type=button] {
 
 .faq h2 {
   margin-bottom: 40px;
+  line-height: 1;
 }
 
 .faq-content {
@@ -522,10 +525,6 @@ input[type=button] {
     margin: 100px 0;   
   }
 
-  h1 {
-    font-size: 3em;
-    line-height: 48px;
-  }
 
   h2 {
     font-size: 2.25em;
@@ -574,6 +573,15 @@ input[type=button] {
 
 /*Main Section */
 /* Hero Area */
+.hero-area {
+  min-height: 600px;
+}
+h1 {
+  font-size: 3em;
+  line-height: 48px;
+  margin: 0;
+  padding: 0;
+}
 /* Aside */
   aside .content-wrapper {
     display: flex;
@@ -638,6 +646,11 @@ footer .content-wrapper {
 footer .contact {
   margin-bottom: 0;
 }
+
+.social h4 {
+  margin-top: 0;
+  padding-top: 0;
+}
 footer .social-icons {
   width: 12.5em;
   justify-content: space-between;
@@ -675,6 +688,7 @@ footer .copyright {
 /* FAQ Page */
 .faq .content-wrapper {
   justify-content: space-between;
+  align-items: center;
 }
 
 .faq h4, faq p {
@@ -764,6 +778,7 @@ aside .content-wrapper .form {
 /* FAQ Page */
 .faq h2 {
   width: 100%;
+  font-size: 3em;
 }
 
 .faq h4, .faq p {
