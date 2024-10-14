@@ -540,10 +540,6 @@ input[type=button] {
     font-size: 1.5em;
   }
 
-  .footer p {
-    line-height: 18px;
-  }
-
   /* Header */
   header {
     padding: 33px 0;
@@ -619,7 +615,7 @@ h1 {
 .reviews article {
   display: flex;
   justify-content: space-between;
-  align-items: space-between;
+  justify-content: space-between;
 }
 
 .reviews h2 {
@@ -653,12 +649,10 @@ footer h4  {
   margin-bottom: 40px;
 }
 
-/*.social h4 {
-  padding-bottom: 20px;
-  margin-bottom: 39.9px;
-  padding-top: 0;
-  margin-top: 0;
-} */
+.footer p {
+  line-height: 18px;
+}
+
 footer .social-icons {
   width: 12.5em;
   justify-content: space-between;
@@ -724,9 +718,6 @@ footer .copyright {
   max-width: 960px;
  }
 
- header figure {
-  width: 30%;
-}
  h2 {
   font-size: 2.25em;
  }
@@ -744,16 +735,14 @@ footer .copyright {
   line-height: 24px;
  }
  
- /*footer h4 {
-  margin-top: 60px;
- } 
- .contact h4 {
-  margin-top: 0;
- } */
  /* Header */
  header {
  padding: 15px 0;
  }
+
+ header figure {
+  width: 30%;
+}
 
 /* Hero */
 .hero-area h1 {
