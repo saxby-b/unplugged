@@ -615,7 +615,7 @@ h1 {
 .reviews article {
   display: flex;
   justify-content: space-between;
-  justify-content: space-between;
+  align-items: center;
 }
 
 .reviews h2 {
