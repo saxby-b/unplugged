@@ -1,1 +1,1 @@
-Strengthen your team's bond with the help of Unplugged!
+Unplugged features three pages: home, about and faq. Each page includes a header and a footer. The home page also includes four sections for further information. The faq page integrates Google Maps for added functionality.
