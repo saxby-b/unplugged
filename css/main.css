@@ -240,9 +240,7 @@ footer .social-icons p i {
   margin: 20px 0;
 }
 /* Mobile Styles - Homepage*/
-
 /* Home Main Section */
-
 main .home {
   display: flex;
   justify-content: center;
@@ -757,7 +755,6 @@ input[type="button"] {
   }
 
   /* Features */
-
   .features h2 {
     width: 90%;
   }
@@ -772,7 +769,6 @@ input[type="button"] {
   }
 
   /* About Page */
-
   .mission h2,
   .contact-section .content-wrapper h2 {
     width: 95%;
